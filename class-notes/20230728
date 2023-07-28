@@ -1,0 +1,46 @@
+
+	PHP
+	MySQL - CommandLine
+	
+	Frameworks
+		
+	UI
+	PHP
+	Database
+	
+	Backup
+	
+	Pythagoras Theorem
+	
+	Array Sorting
+		Bubble
+		Selection
+		
+	
+	ER-Model - Analysis/Design
+	
+	Implemented:
+	Hierarchical (1:1, 1:N)
+	Network (1:1, 1:N, N:M, M:N)
+	Relational
+	
+	Entities:
+		Student
+			id: int - pk
+			first_name: varchar(20)
+			middle_name: varchar(20)
+			last_name: varchar(20)
+			
+		Staff
+		Fee
+	
+	Normalization:
+		1NF	-	No Composite/Multivalued Attribute. Primary Key
+		2NF
+		
+		
+	DDL
+	DML
+	DQL
+	DCL
+	
