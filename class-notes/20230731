@@ -1,0 +1,58 @@
+
+	int a;
+	char a;
+	
+	String name;
+	char name[50];	//C/C++
+	
+	char[] name = new char[50];
+	
+	Scanner scanner = new Scanner(System.in);
+	
+	Static Allocation
+	Dynamic Allocation
+	
+	Static Typing
+	Dynamic Typing
+	
+	#include <stdio.h>
+	
+	#include <iostream>
+			or
+	#include <iostream.h>
+	
+	C
+	Software Engineering
+	RDBMS
+	Artificial Intelligence
+	
+	#include is a preprocessor directive (file inclusion directive)
+	#define is a prreprocessor directive (Macro substitution dir.)
+	
+	#define PI 31.4
+	
+	#define SQ(x) x*x
+	
+	void fun()
+	{
+	
+	}
+	
+	inline void ifun()
+	{
+	
+	}
+	
+	
+	API - Readymade code to achieve something
+	
+	
+	12345689
+	
+	Connection con = DriverManager.getConnection(url, user, pass);
+	
+	mysql api
+	
+	
+	
+	
