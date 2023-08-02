@@ -1,0 +1,73 @@
+
+
+	this.connection = ?;
+	
+	class Student {
+		int rollNo;
+		String name;
+		static int studentCount;
+		
+		public void setRollNo(int rollNo) {
+			this.rollNo = rollNo;
+		}
+		
+		public void index() {
+		
+		}
+	}
+	
+	class TestStudent {
+		public static void main(String[] args) {
+			int a = 10;
+			Student studenta = new Student();
+			studenta.setRolNo(1);
+			studenta.index();
+			Student studentb = new Student();
+			studentb.index();
+			
+			System.out.print("Hello");
+		}
+	}
+	
+	class System {
+		public static PrintStream out;
+	}
+	
+	System is class. (Ok)
+	out is a variable not of System class but of PrintStream Class
+	print is method of PrintStream.
+	
+	Loose coupling
+	
+	class student
+	{
+		public:
+			void index()
+			{
+			
+			}
+	};
+	
+	int main(void)
+	{
+		Student student;		//Static instantiation	
+		Student *studentp = new Student(); //dynamic
+		
+		student.index();
+		studentp->index();
+	}
+	
+	POJO	:	Plain Old Java Object
+	
+	
+	
+	instance variable
+	class variable
+	
+	student[0][1]
+	
+	Map	-	 Key, Value
+	Associative Array
+	
+	
+	
