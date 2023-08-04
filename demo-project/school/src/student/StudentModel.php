@@ -2,17 +2,15 @@
 
 namespace school\src\student;
 
+require '../env.php';
+
 class Student
 {
     private $connection = null;
-    private $server = "localhost";
-    private $username = "ols2306";
-    private $password = "ols2306";
-    private $database = "school_2306";
 
     public function __construct()
     {
-        $this->connection = new \mysqli($this->server, $this->username, $this->password, $this->database);
+        $this->connection = new \mysqli(SERVER, USERNAME, PASSWORD, DATABASE);
     }
 
     public function index()
@@ -34,7 +32,7 @@ class Student
 
     public function create()
     {
-
+        
     }
 
     public function update(int $id)

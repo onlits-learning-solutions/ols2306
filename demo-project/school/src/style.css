@@ -1,0 +1,40 @@
+body {
+    margin: 0px;
+}
+
+div.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+aside {
+    background-color: lightgrey;
+    min-height: 700px;
+    padding: 10px;
+}
+
+aside a {
+    display: block;
+}
+
+main {
+    padding: 20px;
+}
+
+/* ----------------- Form Controls --------------------- */
+label {
+    display: block;
+    padding: 5px;
+}
+
+input {
+    display: block;
+    padding: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+button {
+    display: block;
+    padding: 5px;
+}

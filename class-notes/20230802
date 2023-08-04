@@ -1,0 +1,16 @@
+php.ini.development
+php.ini.production
+
+.env.example	->	.env
+
+KISS	-	Keep It Simple Stupid
+DRY		-	Don't Repeat Yourself
+YAGNI	-	You Are'nt Gonna Need It
+
+#define PI 3.14
+
+const float PI = 3.14f;
+
+final float PI = 3.14f;
+
+define("PI","3.14");

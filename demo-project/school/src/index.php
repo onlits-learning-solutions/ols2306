@@ -7,6 +7,6 @@
 </head>
 <body>
     <h1>School Home</h1>
-    <a href="student.php">Student</a>
+    <a href="student/student.php">Student</a>
 </body>
 </html>

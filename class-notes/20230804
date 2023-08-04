@@ -1,0 +1,52 @@
+
+	TCS
+	Tata Technologies
+	
+	lowercase
+	UPPERCASE
+	PascalCase
+	camelCase
+	snake_case
+	kebab-case
+	
+	Rules for identifies:
+		1. White-space are not allowed
+		2. Letters, digits and underscore is allowed
+		
+		
+	Java:
+		parameters	-	lowercase
+		constants	-	UPPERCASE (PI=3.14, MAX=10)
+		class/interface	-	PascalCase (Scanner, BufferedReader)
+		method/fields	-	camelCase (parseInt(), getConnection())
+		
+	PHP:
+		Method	-	snake_case (fetch_all(), fetch_array())
+		
+	css:
+	rule	-	kebab-case (background-color: red;)
+		text-align: center;
+		
+	
+	DRY:	Don't Repeat Yourself
+	KiSS:	Keep it simple stupid
+	YAGNI:	You aren't gonna need it
+	
+	SOLID
+	
+	Classes and Object
+	
+	WAP to find the sum of two integer in java.
+	
+	POJO	=	Plain Old Java Objects
+	POPO	=	Plain Old PHP Objects
+	
+	$_GET[]
+	$_POST[]
+	
+	Swing
+	
+	
+	
+	
+	
