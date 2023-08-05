@@ -4,9 +4,11 @@ use school\src\student\Student;
 
 require 'StudentModel.php';
 
-if(isset($_POST['submit'])) {
-    $student = new Student();
-    $student->create($_POST);
+if (isset($_POST['submit'])) {
+} else {
+    $studentob = new Student();
+    $student = $studentob->details($_GET['id']);
+    print_r($student);
 }
 
 ?>
@@ -27,10 +29,12 @@ if(isset($_POST['submit'])) {
             <?php require('../sidebar.php') ?>
         </aside>
         <main>
-            <h1>New Student</h1>
+            <h1>Edit Student</h1>
             <form action="" method="post">
+                <label for="id">Id</label>
+                <input type="text" name="id" id="id" readonly value="<?= $student['id'] ?>">
                 <label for="first_name">First Name</label>
-                <input type="text" name="first_name" id="first_name">
+                <input type="text" name="first_name" id="first_name" <?= $student['first_name'] ?>>
                 <label for="middle_name">Middle Name</label>
                 <input type="text" name="middle_name" id="middle_name">
                 <label for="last_name">Last Name</label>

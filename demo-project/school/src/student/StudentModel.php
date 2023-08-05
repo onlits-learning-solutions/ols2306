@@ -25,14 +25,23 @@ class Student
 
     public function details(int $id)
     {
-        $student = null;
-
-        return $student;
+        $sql = "SELECT * FROM student WHERE id=$id";
+        $result = $this->connection->query($sql);
+        if($result->num_rows > 0)
+            return $result->fetch_assoc();
+        
+        return null;
     }
 
-    public function create()
+    public function create($student)
     {
-        
+        $first_name = $student['first_name'];
+        $middle_name = $student['middle_name'];
+        $last_name = $student['last_name'];
+
+        $sql = "INSERT INTO student(first_name, middle_name, last_name) VALUES('$first_name', '$middle_name', '$last_name')";
+        $this->connection->query($sql);
+        header("location:student.php");
     }
 
     public function update(int $id)

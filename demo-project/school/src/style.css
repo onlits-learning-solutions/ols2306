@@ -2,7 +2,7 @@ body {
     margin: 0px;
 }
 
-div.grid-container {
+.grid-container {
     display: grid;
     grid-template-columns: 1fr 4fr;
 }

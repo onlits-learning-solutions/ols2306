@@ -28,7 +28,7 @@ $students = $studentob->index();
                 <tr>
                     <th>ID</th>
                     <th>First Name</th>
-                    <th>Middl Name</th>
+                    <th>Middle Name</th>
                     <th>Last Name</th>
                     <th></th>
                     <th></th>
@@ -39,7 +39,7 @@ $students = $studentob->index();
                         <td><?= $student['first_name'] ?></td>
                         <td><?= $student['middle_name'] ?></td>
                         <td><?= $student['last_name'] ?></td>
-                        <td><a href="">Edit</a></td>
+                        <td><a href="edit-student.php?id=<?= $student['id'] ?>">Edit</a></td>
                         <td><a href="">Delete</a></td>
                     </tr>
                 <?php } ?>
