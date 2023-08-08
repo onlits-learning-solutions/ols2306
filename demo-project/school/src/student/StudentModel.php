@@ -38,15 +38,24 @@ class Student
         $first_name = $student['first_name'];
         $middle_name = $student['middle_name'];
         $last_name = $student['last_name'];
+        $contact_no = $student['contact_no'];
 
-        $sql = "INSERT INTO student(first_name, middle_name, last_name) VALUES('$first_name', '$middle_name', '$last_name')";
+        $sql = "INSERT INTO student(first_name, middle_name, last_name, contact_no) VALUES('$first_name', '$middle_name', '$last_name', '$contact_no')";
         $this->connection->query($sql);
         header("location:student.php");
     }
 
-    public function update(int $id)
+    public function update($student)
     {
+        $id = $student['id'];
+        $first_name = $student['first_name'];
+        $middle_name = $student['middle_name'];
+        $last_name = $student['last_name'];
+        $contact_no = $student['contact_no'];
 
+        $sql = "UPDATE student SET first_name='$first_name', middle_name='$middle_name', last_name='$last_name', contact_no='$contact_no' WHERE id=$id";
+        $this->connection->query($sql);
+        header('location:student.php');
     }
 
     public function delete(int $id)

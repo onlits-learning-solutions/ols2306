@@ -1,0 +1,14 @@
+
+	Get			-	$_GET[]
+	Post		-	$_POST[]
+	
+	Entity Integrity
+	
+	1 char =  1 Byte (8 bits)
+	1 int	= 4 Bytes (32 bits)
+	
+	10 X 1 =  10 Bytes (80 bits)
+	
+	Time-space trade-off
+	
+	

@@ -1,0 +1,53 @@
+
+	- Full stack
+	
+	10 - Buzz words
+		Platform Independent (Write Once Run Anywhere)
+		Portable
+		Simple
+		Secure
+		Multi-threading
+		
+	
+	Azure for Operators
+	
+	
+	CSS:
+		Levels of CSS:
+			1. Inline
+			2. Internal
+			3. External
+			
+			
+		1. <p style="text-align: center"></p>
+		2. Internal is written within <style></style>
+		3. Exteral is written in a separate file
+		
+
+/*--- CSS Rule --- */
+.grid-container {	/* selector */
+    display: grid;	/* declaration (consist of property:value*/
+    grid-template-columns: 1fr 4fr;
+}
+
+aside {
+    background-color: lightgrey;
+    min-height: 700px;
+    padding: 10px;
+}
+
+
+Primary selectors
+	element selector	
+	class selector		.grid-container
+	id selector			#grid-container
+	
+	
+Why CSS is known so?
+Why HTML is known so?
+Why PHP is knows so?
+Why JS is known so? LiveScript (Netscape)
+Why MySQL is known so?
+
+Verification and Validation
+
