@@ -60,7 +60,16 @@ class Student
 
     public function delete(int $id)
     {
+        $sql = "DELETE FROM student WHERE id=$id";
+        $this->connection->query($sql);
+        header("location:student.php");
+    }
 
+    public function count_student()
+    {
+        $sql = "SELECT COUNT(id) FROM student";
+        $result = $this->connection->query($sql);
+        return $result->fetch_array();
     }
 
     public function __destruct()
