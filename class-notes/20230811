@@ -1,0 +1,45 @@
+
+	User Classes:
+		Employee (Clerks)
+		Employee (Managers)
+		Administrator
+		
+		admin
+		administrator
+		root
+		dictator
+		
+		
+	Business Entity Principle
+	
+	if
+	if-else
+	if-elseif-else ladder
+	nested if-else
+	
+	if(user_id == 'root')
+	 	if(password == 'root')
+	 		echo 'success';
+	 	else
+	 		echo 'password wrong';
+	 else
+	 	echo 'user not found';
+	 	
+	 	
+	 if(user == 'root' && password='root')
+	 	echo 'success';
+	 else
+	 	echo 'user id or password wrong';
+	 	
+	 ?:
+	 
+	 Unary		-	++, --
+	 Binary		-	+, -, *, +, <, >
+	 Ternary	-	?:
+	 
+	 
+		fmis.example.com?key=arnold&value=schwarzenegger
+		
+	Session is persistent now a days
+	
+	
